@@ -1,0 +1,12 @@
+.Link {
+  color: var(--link-text-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--link-font-size);
+  font-weight: var(--link-font-weight);
+  text-decoration: none;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}

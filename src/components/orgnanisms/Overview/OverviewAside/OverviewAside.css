@@ -1,0 +1,28 @@
+.OverviewAside {
+  padding: 1rem;
+  text-align: center;
+}
+
+.OverviewAside > .Avatar {
+  height: 260px;
+  width: 260px;
+}
+
+@media (max-width: 991px) {
+  .OverviewAside > .Avatar {
+    height: 200px;
+    width: 200px;
+  } 
+}
+
+@media (max-width: 767px) {
+  .OverviewAside > .Avatar {
+    height: 120px;
+    width: 120px;
+  } 
+}
+
+.OverviewAside > .Title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

@@ -1,0 +1,27 @@
+.OverviewRoot {
+  display: grid;
+  grid-template-columns: calc(260px + 2rem) calc(100% - 260px - 2rem);
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .OverviewRoot {
+    grid-template-columns: calc(200px + 2rem) calc(100% - 200px - 2rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .OverviewRoot {
+    display: block;
+  }
+
+  .OverviewRoot .OverviewAside {
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  .OverviewRoot .OverviewMain {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

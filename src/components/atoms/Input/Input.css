@@ -1,0 +1,41 @@
+.Input {
+  align-items: center;
+  background-color: var(--input-bg-color);
+  border-radius: var(--input-radius);
+  border: var(--input-border);
+  color: var(--input-text-color);
+  cursor: text;
+  display: inline-flex;
+  font-size: var(--input-font-size);
+  font-weight: var(--input-font-weight);
+  gap: var(--input-gap);
+  height: var(--input-height);
+  line-height: var(--input-line-height);
+  padding: var(--input-padding);
+  width: 100%;
+}
+
+.Input:hover {
+  background-color: var(--input-hover-bg-color);
+}
+
+.Input:focus-within {
+  background-color: var(--input-focus-bg-color);
+  outline: var(--outline);
+}
+
+.Input > input {
+  background-color: transparent;
+  border: none;
+  color: var(--input-text-color);
+  font-size: var(--input-font-size);
+  font-weight: var(--input-font-weight);
+  height: 100%;
+  line-height: var(--input-line-height);
+  padding: 0;
+  width: 100%;
+}
+
+.Input > input:focus {
+  outline: none;
+}

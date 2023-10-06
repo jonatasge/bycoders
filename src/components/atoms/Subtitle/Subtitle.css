@@ -1,0 +1,5 @@
+.Subtitle {
+  font-size: var(--subtitle-font-size);
+  font-weight: var(--subtitle-font-weight);
+  line-height: var(--subtitle-line-height);
+}

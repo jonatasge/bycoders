@@ -1,0 +1,22 @@
+.HeaderBreadcrumb {
+  align-items: center;
+  display: flex;
+  gap: var(--header-breadcrumb-gap);
+  width: 100%;
+}
+
+.HeaderBreadcrumb > .Avatar {
+  height: var(--header-breadcrumb-avatar-size);
+  width: var(--header-breadcrumb-avatar-size);
+}
+
+.HeaderBreadcrumb > .Breadcrumb {
+  font-size: var(--header-breadcrumb-font-size);
+  font-weight: var(--header-breadcrumb-font-weight);
+  line-height: var(--header-breadcrumb-line-height);
+}
+
+.HeaderBreadcrumb > .Skeleton.Text > div {
+  height: var(--header-breadcrumb-font-size);
+  width: 150px;
+}

@@ -1,0 +1,13 @@
+.Avatar {
+  background-color: var(--avatar-bg-color);
+  border-radius: var(--avatar-radius);
+  border: var(--avatar-border);
+  display: inline-block;
+  height: var(--avatar-height);
+  overflow: hidden;
+  width: var(--avatar-width);
+}
+
+.Avatar.bg-white {
+  background-color: white;
+}

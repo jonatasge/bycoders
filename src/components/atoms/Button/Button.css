@@ -1,0 +1,23 @@
+.Button {
+  align-items: center;
+  background-color: var(--button-bg-color);
+  border-radius: var(--button-radius);
+  border: var(--button-border);
+  color: var(--button-text-color);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  height: var(--button-height);
+  justify-content: center;
+  line-height: var(--button-line-height);
+  padding: var(--button-padding);
+}
+
+.Button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.Button:focus {
+  background-color: var(--button-focus-bg-color);
+}

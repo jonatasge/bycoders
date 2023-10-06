@@ -1,0 +1,13 @@
+.Data {
+  font-size: var(--data-font-size);
+  font-weight: var(--data-font-weight);
+  line-height: var(--data-line-height);
+}
+
+.Data .Label {
+  align-items: center;
+  display: inline-flex;
+  font-size: var(--data-label-font-size);
+  font-weight: var(--data-label-font-weight);
+  line-height: var(--data-label-line-height);
+}

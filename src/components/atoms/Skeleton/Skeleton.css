@@ -1,0 +1,66 @@
+.Skeleton.loading > div {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.Skeleton.Avatar > div {
+  height: 100%;
+  width: 100%;
+}
+
+.Skeleton.Block {
+  border-radius: var(--skeleton-radius);
+  overflow: hidden;
+}
+
+.Skeleton.SkeletonChip {
+  height: calc(var(--chip-line-height) + calc(var(--chip-padding-y) * 2));
+  overflow: hidden;
+}
+
+.Skeleton.SkeletonChip > div {
+  border-radius: var(--chip-radius);
+  height: 100%;
+  width: 100%;
+}
+
+.Skeleton.Title {
+  align-items: center;
+  display: flex;
+  height: var(--title-line-height);
+  justify-content: left;
+  width: 100%;
+}
+
+.Skeleton.Title > div {
+  border-radius: var(--skeleton-radius);
+  height: var(--title-font-size);
+  width: 100%;
+}
+
+.Skeleton.Subtitle {
+  align-items: center;
+  display: flex;
+  height: var(--subtitle-line-height);
+  justify-content: left;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.Skeleton.Subtitle > div {
+  border-radius: var(--skeleton-radius);
+  height: var(--subtitle-font-size);
+  width: 100%;
+}
+
+.Skeleton.Text {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.Skeleton.Text > div {
+  border-radius: var(--skeleton-radius);
+  height: 1rem;
+  margin: 0.25rem 0;
+  width: 100%;
+}

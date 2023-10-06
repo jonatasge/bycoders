@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../node_modules/github-markdown-css/github-markdown.css");
+
+@import url("./styles/reset.css");
+@import url("./styles/vars.css");
+@import url("./components/atoms/atoms.css");
+@import url("./components/molecules/molecules.css");
+@import url("./components/orgnanisms/orgnanisms.css");
+@import url("./components/templates/templates.css");
+@import url("./styles/main.css");

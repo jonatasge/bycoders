@@ -1,0 +1,43 @@
+@media (max-width: 991px) {
+  .RepositoryTemplate > section {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+.RepositoryTemplate > section > .repo-details {
+  width: calc(100% - 200px);
+}
+
+@media (max-width: 991px) {
+  .RepositoryTemplate > section > .repo-details {
+    width: 100%;
+  }
+}
+
+.RepositoryTemplate > section > .repo-details > .Card > .Data,
+.RepositoryTemplate > section > .repo-details > .Card > .Data > .Label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.RepositoryTemplate > section .repo-data {
+  width: 200px;
+}
+
+@media (max-width: 991px) {
+  .RepositoryTemplate > section > .repo-data {
+    width: 100%;
+  }
+}
+
+.RepositoryTemplate > section > .repo-data > .markers {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.RepositoryTemplate > section > .repo-data .Icon {
+  font-size: 2.5rem;
+} 

@@ -1,0 +1,14 @@
+.Text {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+}
+
+@media (max-width: 767px) {
+  
+}
+.Text {
+  font-size: var(--xs-font-size);
+  font-weight: var(--xs-font-weight);
+  line-height: var(--xs-line-height);
+}

@@ -1,0 +1,15 @@
+.LinkCard {
+  color: unset;
+  outline: none;
+  text-decoration: none;
+}
+
+.LinkCard:focus > .Card {
+  background-color: var(--linkCard-focus-bg-color);
+  border: var(--outline);
+  border-width: var(--border-width);
+}
+
+.LinkCard:hover > .Card {
+  background-color: var(--linkCard-hover-bg-color);
+}

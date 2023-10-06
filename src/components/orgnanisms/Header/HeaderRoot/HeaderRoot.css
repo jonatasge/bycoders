@@ -1,0 +1,27 @@
+.HeaderRoot {
+  align-items: center;
+  border-bottom: var(--header-border-bottom);
+  display: flex;
+  gap: var(--header-gap);
+  margin: var(--header-margin);
+  padding: var(--header-padding);
+}
+
+.HeaderRoot > button {
+  background-color: var(--header-back-button-bg-color);
+  border: var(--header-back-button-border);
+  box-shadow: var(--header-back-button-shadow);
+  color: var(--header-back-button-text-color);
+  font-size: var(--header-back-button-font-size);
+  height: var(--header-back-button-height);
+  width: var(--header-back-button-width);
+  min-width: var(--header-back-button-width);
+}
+
+.HeaderRoot > button:hover {
+  background-color: var(--header-back-button-hover-bg-color);
+}
+
+.HeaderRoot > button:focus {
+  background-color: var(--header-back-button-focus-bg-color);
+}

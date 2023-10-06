@@ -1,0 +1,126 @@
+:root {
+  --border-color: rgba(255, 255, 255, 0.15);
+  --border-style: solid;
+  --border-width: 2px;
+  --border: var(--border-width) var(--border-style) var(--border-color);
+  --outline: 1px solid white;
+  --radius: 2rem;
+
+  --bg-color: rgb(13, 17, 23);
+  --font-size: 16px;
+  --font-weight: 400;
+  --line-height: 1.25rem;
+  --text-color: white;
+  --xs-font-size: 14px;
+  --xs-font-weight: 400;
+  --xs-line-height: 1.09rem;
+
+  --avatar-bg-color: rgba(255, 255, 255, 0.2);
+  --avatar-border: 1px var(--border-style) var(--border-color);
+  --avatar-height: 100px;
+  --avatar-radius: 100%;
+  --avatar-width: 100px;
+
+  --breadcrumb-font-size: 0.875rem;
+  --breadcrumb-font-weight: 500;
+  --breadcrumb-gap: 0.25rem;
+  --breadcrumb-line-height: 1rem;
+  --breadcrumb-slash-font-size: var(--breadcrumb-font-size);
+  --breadcrumb-slash-font-weight: var(--breadcrumb-font-weight);
+  --breadcrumb-slash-line-height: var(--breadcrumb-line-height);
+  
+  --button-bg-color: rgba(255, 255, 255, 0.05);
+  --button-focus-bg-color: rgba(255, 255, 255, 0.1);
+  --button-hover-bg-color: rgba(255, 255, 255, 0.1);
+  --button-border: none;
+  --button-font-size: 0.875rem;
+  --button-font-weight: 600;
+  --button-height: 2.625rem;
+  --button-line-height: 1.25rem;
+  --button-padding: 0.6rem 1.6rem;
+  --button-radius: 0.5rem;
+  --button-text-color: var(--text-color);
+
+  --card-bg-color: var(--bg-color);
+  --card-border: var(--border);
+  --card-radius: 0.5rem;
+  
+  --chip-bg-color: rgba(255, 255, 255, 0.1);
+  --chip-font-size: 0.875rem;
+  --chip-font-weight: 400;
+  --chip-line-height: 1rem;
+  --chip-padding-x: 0.75rem;
+  --chip-padding-y: 0.5rem;
+  --chip-radius: var(--radius);
+  --chip-text-color: var(--text-color);
+
+  --data-font-size: 0.875rem;
+  --data-font-weight: 400;
+  --data-label-font-size: var(--data-font-size);
+  --data-label-font-weight: 600;
+  --data-label-line-height: var(--data-line-height);
+  --data-line-height: 1rem;
+
+  --header-border-bottom: var(--border);
+  --header-gap: 1rem;
+  --header-margin: 0 -1rem;
+  --header-padding: 0.5rem;
+
+  --header-back-button-bg-color: transparent;
+  --header-back-button-focus-bg-color: rgba(255, 255, 255, 0.05);
+  --header-back-button-hover-bg-color: rgba(255, 255, 255, 0.1);
+  --header-back-button-border: none;
+  --header-back-button-font-size: 1.25rem;
+  --header-back-button-height: 2.625rem;
+  --header-back-button-shadow: none;
+  --header-back-button-text-color: var(--text-color);
+  --header-back-button-width: var(--header-back-button-height);
+
+  --header-breadcrumb-avatar-size: 1.5625rem;
+  --header-breadcrumb-font-size: 1.25rem;
+  --header-breadcrumb-font-weight: 600;
+  --header-breadcrumb-gap: 0.5rem;
+  --header-breadcrumb-line-height: 1.5625rem;
+
+  --input-bg-color: var(--bg-color);
+  --input-focus-bg-color: rgba(255, 255, 255, 0.05);
+  --input-hover-bg-color: rgba(255, 255, 255, 0.1);
+  --input-border: var(--border);
+  --input-font-size: 1rem;
+  --input-font-weight: 400;
+  --input-gap: 0.5rem;
+  --input-height: 2.625rem;
+  --input-line-height: 1.25rem;
+  --input-padding: 0.5rem 0.75rem;
+  --input-radius: var(--radius);
+  --input-text-color: var(--text-color);
+
+  --link-font-size: 0.875rem;
+  --link-font-weight: 400;
+  --link-text-color: #58a6ff;
+
+  --linkCard-focus-bg-color: rgba(255, 255, 255, 0.05);
+  --linkCard-hover-bg-color: rgba(255, 255, 255, 0.1);
+
+  --skeleton-radius: 0.25rem;
+  
+  --subtitle-font-size: 0.875rem;
+  --subtitle-font-weight: 400;
+  --subtitle-line-height: 1.1rem;
+
+  --title-font-size: 2rem;
+  --title-font-weight: 400;
+  --title-line-height: 2.5rem;
+
+  --transition-duration: 0.125s;
+  --transition-effect: linear;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

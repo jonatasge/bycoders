@@ -1,0 +1,10 @@
+.Chip {
+  background-color: var(--chip-bg-color);
+  border-radius: var(--chip-radius);
+  color: var(--chip-text-color);
+  display: inline-block;
+  font-size: var(--chip-font-size);
+  font-weight: var(--chip-font-weight);
+  line-height: var(--chip-line-height);
+  padding: var(--chip-padding-y) var(--chip-padding-x);
+}

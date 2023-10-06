@@ -1,0 +1,6 @@
+.Stars,
+.Stars .Label {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+}
