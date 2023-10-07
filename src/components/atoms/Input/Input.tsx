@@ -5,12 +5,17 @@ export type InputProps = JSX.IntrinsicElements["input"] & {
   after?: ReactNode;
 };
 
-export const Input = ({ after, before, className, ...props }: InputProps) => {
+export const Input = ({
+  after,
+  before,
+  className = "transition transition-bg-color",
+  ...props
+}: InputProps) => {
   const ref = useRef<HTMLInputElement>(null);
 
   return (
     <div
-      className={`Input transition transition-bg-color ${className || ""}`}
+      className={`Input ${className || ""}`}
       onClick={() => ref.current?.focus()}
     >
       {before}
