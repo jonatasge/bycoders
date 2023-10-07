@@ -6,8 +6,6 @@
 
 .LinkCard:focus > .Card {
   background-color: var(--linkCard-focus-bg-color);
-  border: var(--outline);
-  border-width: var(--border-width);
 }
 
 .LinkCard:hover > .Card {

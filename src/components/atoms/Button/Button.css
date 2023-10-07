@@ -12,6 +12,7 @@
   justify-content: center;
   line-height: var(--button-line-height);
   padding: var(--button-padding);
+  outline: var(--outline);
 }
 
 .Button:hover {

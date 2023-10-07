@@ -17,7 +17,7 @@ export const HeaderRoot = ({
     <header className={`HeaderRoot ${className || ""}`} {...props}>
       {showBackButton && (
         <button
-          className="transition transition-bg-color cursor-pointer rounded inline-flex items-center justify-center"
+          className="transition transition-bg-color cursor-pointer rounded inline-flex items-center justify-center outline"
           onClick={() => navigate(-1)}
           type="button"
         >

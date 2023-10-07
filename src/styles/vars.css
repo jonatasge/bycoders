@@ -3,8 +3,8 @@
   --border-style: solid;
   --border-width: 2px;
   --border: var(--border-width) var(--border-style) var(--border-color);
-  --outline: 1px solid white;
-  --radius: 2rem;
+  --outline: none;
+  --radius: 1.25rem;
 
   --bg-color: rgb(13, 17, 23);
   --font-size: 16px;

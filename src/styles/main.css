@@ -164,6 +164,11 @@ hr {
   margin-bottom: 2rem;
 }
 
+/* outline */
+.outline {
+  outline: var(--outline);
+}
+
 /* padding */
 .p-2 {
   padding: 1rem;
