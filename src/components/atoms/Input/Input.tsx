@@ -1,25 +1,25 @@
-import { ReactNode, useRef } from "react";
+import { ReactNode } from "react";
 
 export type InputProps = JSX.IntrinsicElements["input"] & {
   before?: ReactNode;
   after?: ReactNode;
+  innerRef?: React.RefObject<HTMLInputElement>;
 };
 
 export const Input = ({
   after,
   before,
   className = "transition transition-bg-color",
+  innerRef,
   ...props
 }: InputProps) => {
-  const ref = useRef<HTMLInputElement>(null);
-
   return (
     <div
       className={`Input ${className || ""}`}
-      onClick={() => ref.current?.focus()}
+      onClick={() => innerRef?.current?.focus()}
     >
       {before}
-      <input ref={ref} {...props} />
+      <input ref={innerRef} {...props} />
       {after}
     </div>
   );

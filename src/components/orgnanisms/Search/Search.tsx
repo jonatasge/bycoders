@@ -1,19 +1,19 @@
-import { Button, ButtonProps, Input, InputProps } from "@/components/atoms";
-import { getFormValues } from "@/utils/form";
 import { FormEvent } from "react";
-import { MdSearch } from "react-icons/md";
+
+import { Button, ButtonProps } from "@/components/atoms";
+import { Autocomplete, AutocompleteProps } from "@/components/molecules";
+import { getFormValues } from "@/utils/form";
 
 export type SearchProps = Omit<JSX.IntrinsicElements["form"], "onSubmit"> & {
+  autocomplete?: AutocompleteProps;
   button?: ButtonProps;
-  input?: InputProps;
   onSubmit?: (search: string) => void;
 };
 
 export const Search = ({
-  className,
-
-  input,
+  autocomplete,
   button,
+  className,
   onSubmit,
   ...props
 }: SearchProps) => {
@@ -30,13 +30,11 @@ export const Search = ({
       {...props}
     >
       <div className="flex flex-wrap items-center justify-center gap-2">
-        <Input
-          id="search"
-          name="search"
-          required={true}
-          before={<MdSearch />}
-          {...input}
+        <Autocomplete
+          {...autocomplete}
+          input={{ type: "search", ...autocomplete?.input }}
         />
+
         <Button type="submit" {...button}>
           Pesquisar
         </Button>

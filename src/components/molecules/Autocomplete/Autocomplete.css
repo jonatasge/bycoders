@@ -1,0 +1,46 @@
+.Autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.Autocomplete.open > .Input {
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+
+.Autocomplete > .List {
+  background-color: var(--autocomplete-menu-bg-color);
+  border-bottom-left-radius: var(--autocomplete-radius);
+  border-bottom-right-radius: var(--autocomplete-radius);
+  border: var(--autocomplete-menu-border);
+  margin-top: calc(var(--border-width) * -1);
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.Autocomplete > .List:empty {
+  border: none;
+}
+
+.Autocomplete > .List > .ListItem {
+  background-color: var(--autocomplete-menu-item-bg-color);
+  color: var(--autocomplete-menu-item-text-color);
+  cursor: pointer;
+  font-size: var(--autocomplete-menu-item-font-size);
+  font-weight: var(--autocomplete-menu-item-font-weight);
+  line-height: var(--autocomplete-menu-item-line-height);
+  padding: var(--autocomplete-menu-item-padding);
+}
+
+.Autocomplete > .List > .ListItem:hover {
+  background-color: var(--autocomplete-menu-item-hover-bg-color);
+}
+
+.Autocomplete > .List > .ListItem.highlighted {
+  background-color: var(--autocomplete-menu-item-highlighted-bg-color);
+}
+
+.Autocomplete > .List > .ListItem.selected {
+  background-color: var(--autocomplete-menu-item-selected-bg-color);
+}

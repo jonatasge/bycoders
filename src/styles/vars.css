@@ -15,6 +15,20 @@
   --xs-font-weight: 400;
   --xs-line-height: 1.09rem;
 
+  --autocomplete-menu-bg-color: var(--bg-color);
+  --autocomplete-menu-border: var(--input-border);
+  --autocomplete-menu-item-bg-color: var(--input-focus-bg-color);
+  --autocomplete-menu-item-font-size: var(--input-font-size);
+  --autocomplete-menu-item-font-weight: var(--input-font-weight);
+  --autocomplete-menu-item-highlighted-bg-color: var(--input-hover-bg-color);
+  --autocomplete-menu-item-hover-bg-color: var(--input-hover-bg-color);
+  --autocomplete-menu-item-line-height: var(--input-line-height);
+  --autocomplete-menu-item-padding: 0.5rem 0.75rem;
+  --autocomplete-menu-item-selected-bg-color: var(--input-hover-bg-color);
+  --autocomplete-menu-item-text-color: var(--input-text-color);
+  --autocomplete-menu-padding: 0.5rem 0.75rem;
+  --autocomplete-radius: var(--input-radius);
+
   --avatar-bg-color: rgba(255, 255, 255, 0.2);
   --avatar-border: 1px var(--border-style) var(--border-color);
   --avatar-height: 100px;

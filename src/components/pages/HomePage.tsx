@@ -1,7 +1,8 @@
+import { MdSearch } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 import { Container, Title } from "@/components/atoms";
-import { Search } from "@/components/molecules";
+import { Search } from "@/components/orgnanisms";
 
 export const HomePage = () => {
   const navigate = useNavigate();
@@ -11,8 +12,14 @@ export const HomePage = () => {
       <div>
         <Title>Encontre os repositórios mais populares!</Title>
         <Search
+          autocomplete={{
+            input: {
+              autoFocus: true,
+              placeholder: "Digite o nome de usuário",
+              before: <MdSearch />,
+            },
+          }}
           className="mt-4"
-          input={{ autoFocus: true, placeholder: "Digite o nome de usuário" }}
           onSubmit={(username) => navigate(username)}
         />
       </div>
