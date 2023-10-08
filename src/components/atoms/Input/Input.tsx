@@ -13,11 +13,13 @@ export const Input = ({
   innerRef,
   ...props
 }: InputProps) => {
+  const inputFocus = () => {
+    const query = props.id || props.name;
+    if (query) document.getElementById(query)?.focus();
+  };
+
   return (
-    <div
-      className={`Input ${className || ""}`}
-      onClick={() => innerRef?.current?.focus()}
-    >
+    <div className={`Input ${className || ""}`} onClick={inputFocus}>
       {before}
       <input ref={innerRef} {...props} />
       {after}
