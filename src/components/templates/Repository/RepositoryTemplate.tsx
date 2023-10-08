@@ -5,7 +5,7 @@ import * as SI from "react-icons/si";
 
 import { Card, Chip, Container, Link, Skeleton } from "@/components/atoms";
 import { Data, Markdown } from "@/components/molecules";
-import { Header } from "@/components/orgnanisms";
+import { Header } from "@/components/organisms";
 import { Repository } from "@/core/models/Repository";
 import { formatNumber, textCapitalize } from "@/utils/data";
 

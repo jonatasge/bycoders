@@ -2,7 +2,7 @@ import { MdSearch } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 import { Container, Title } from "@/components/atoms";
-import { Search } from "@/components/orgnanisms";
+import { Search } from "@/components/organisms";
 
 export const HomePage = () => {
   const navigate = useNavigate();
