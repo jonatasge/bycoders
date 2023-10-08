@@ -32,7 +32,12 @@ export const Search = ({
       <div className="flex flex-wrap items-center justify-center gap-2">
         <Autocomplete
           {...autocomplete}
-          input={{ type: "search", ...autocomplete?.input }}
+          input={{
+            id: "search",
+            name: "search",
+            type: "search",
+            ...autocomplete?.input,
+          }}
         />
 
         <Button type="submit" {...button}>
