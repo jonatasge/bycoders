@@ -4,6 +4,7 @@ export * from "./Button/Button";
 export * from "./Card/Card";
 export * from "./Chip/Chip";
 export * from "./Container/Container";
+export * from "./IconButton/IconButton";
 export * from "./Input/Input";
 export * from "./Label/Label";
 export * from "./Link/Link";
