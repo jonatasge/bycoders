@@ -1,5 +1,5 @@
 import { useCombobox } from "downshift";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Input, InputProps, List } from "@/components/atoms";
 
@@ -7,8 +7,8 @@ export type AutocompleteProps = Omit<
   React.ComponentPropsWithRef<"div">,
   "children"
 > & {
-  items?: string[];
   input?: Omit<InputProps, "innerRef">;
+  items?: string[];
 };
 
 export const Autocomplete = ({
@@ -33,6 +33,10 @@ export const Autocomplete = ({
     },
     items: filteredItems,
   });
+
+  useEffect(() => {
+    setFilteredItems(items);
+  }, [items, setFilteredItems]);
 
   const handleRef = ({
     ref,
