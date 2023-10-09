@@ -8,8 +8,8 @@ import {
   Subtitle,
   Text,
 } from "@/components/atoms";
-import { Data, LinkCard } from "@/components/molecules";
-import { Header, Overview, Stars } from "@/components/organisms";
+import { Data, Header, LinkCard } from "@/components/molecules";
+import { Overview, Stars } from "@/components/organisms";
 import { Repository } from "@/core/models/Repository";
 import { User } from "@/core/models/User";
 
