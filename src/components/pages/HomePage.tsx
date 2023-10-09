@@ -30,7 +30,7 @@ export const HomePage = () => {
             items,
             input: {
               autoFocus: true,
-              placeholder: "Digite o nome de usuário",
+              placeholder: "Digite o nome de usuário. Exemplo: vercel",
               before: <MdSearch />,
             },
           }}
