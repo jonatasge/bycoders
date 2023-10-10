@@ -63,9 +63,9 @@ export const UserPage = ({ getUser, getRepositories }: UserPageProps) => {
 
   const onSortChange = () => {
     setSort((sort) => {
-      const newSort = sort === "asc" ? "desc" : "asc"
+      const newSort = sort === "asc" ? "desc" : "asc";
       setRepos((repos) => sortRepos({ repos, sort: newSort }));
-      return newSort
+      return newSort;
     });
   };
 
